@@ -1,11 +1,11 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Infrastructure As Code: Ansible & Terraform Lab</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+This module covers creating an AWS Relational Database Service (RDS) instance using Terraform. Students will learn how to set up Terraform configurations, deploy infrastructure, and manage resources in AWS. Additionally, a bonus section introduces the use of Ansible to configure the RDS database by creating a table. By the end of the lab, students will understand the workflow of Terraform and gain practical experience in provisioning and managing cloud-based databases.
 
 ## Content
 
@@ -16,32 +16,20 @@ tktk Write a short but descriptive summary of the content in this module. Introd
 
 ### Prerequisites
 
-- tktk
+- Infrastructure As Code: Ansible & Terraform
 
 ### Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
-
-### Starter code
-
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+Estimated time to complete core lab exercise: **45 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/infrastructure-as-code-ansible-and-terraform-lab-solution)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infrastructure-as-code-ansible-and-terraform-lab/canvas-landing-pages/mea.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infrastructure-as-code-ansible-and-terraform-lab/canvas-landing-pages/fallback.html)
 
 ### Resources
 

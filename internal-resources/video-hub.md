@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Infrastructure As Code: Ansible & Terraform Lab</span>
   <span class="subhead">Video Hub</span>
 </h1>
 
