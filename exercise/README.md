@@ -36,7 +36,7 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
     }
    ```
 
-3. **Save the file and exit VS Code**.
+3. **Save the file**.
 
 ## Step 2: Initialize Terraform
 
