@@ -2,7 +2,6 @@
   <span class="headline">Infrastructure As Code: Ansible & Terraform Lab</span>
   <span class="subhead">Exercise</span>
 </h1>
-<h1>
 
 ## Creating an AWS RDS service with Terraform
 
