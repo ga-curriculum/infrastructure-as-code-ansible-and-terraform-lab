@@ -112,11 +112,11 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
 
 - database_name: Replace "mydatabase" with an appropriate name for your database (ex: "moviedb").
 
-<blockquote class="attention">
-  ！ Important: Ensure you do not hard-code passwords in real world scenarios. Use environment variables or tools like AWS Secrets Manager to securely manage passwords. Do not commit sensitive information such as passwords to version control.
-</blockquote>
+3. **Save the file before running.**
 
-3. **Save the file**.
+<blockquote class="attention">
+  ⚠️ Important: Ensure you do not hard-code passwords in real world scenarios. Use environment variables or tools like AWS Secrets Manager to securely manage passwords. Do not commit sensitive information such as passwords to version control.
+</blockquote>
 
 ## Step 4: Plan and apply the Terraform configuration
 
