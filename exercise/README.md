@@ -170,20 +170,20 @@ In this bonus section, you will use Ansible to further configure the RDS instanc
      gather_facts: no
 
      vars:
-       db_host: "your-db-endpoint"   ***Update these placeholder values***
-       db_name: "mydatabase"
-       db_user: "myusername"
-       db_password: "The.5ecret?P4ssw0rd"
-       db_port: "5432"
+       db_host: 'your-db-endpoint' # Update placeholder value
+       db_name: 'mydatabase' # Update placeholder value
+       db_user: 'myusername' # Update placeholder value
+       db_password: 'The.5ecret?P4ssw0rd' # Update placeholder value
+       db_port: '5432'
 
      tasks:
        - name: Create 'movies' table
          community.postgresql.postgresql_query:
-           db: "{{ db_name }}"
-           login_user: "{{ db_user }}"
-           login_password: "{{ db_password }}"
-           login_host: "{{ db_host }}"
-           login_port: "{{ db_port }}"
+           db: '{{ db_name }}'
+           login_user: '{{ db_user }}'
+           login_password: '{{ db_password }}'
+           login_host: '{{ db_host }}'
+           login_port: '{{ db_port }}'
            query: |
              CREATE TABLE IF NOT EXISTS movies (
                  id SERIAL PRIMARY KEY,
