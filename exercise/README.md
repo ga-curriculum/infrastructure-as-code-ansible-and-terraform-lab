@@ -96,7 +96,7 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
    }
    ```
 
-> Notice we added an `output` block at the bottom of this `rdd.tf` file. This will print the database endpoint (DB host) when you run `terraform apply`, making it easy for you to use in the Ansible section of the exercise.
+    > Notice we added an `output` block at the bottom of this `rdd.tf` file. This will print the database endpoint (DB host) when you run `terraform apply`, making it easy for you to use in the Ansible section of the exercise.
 
 2. **Replace the placeholder values**:
 
@@ -106,11 +106,11 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
    database_name           = "mydatabase"
    ```
 
-- master_username: Replace "myusername" with a suitable username (ex: "admin").
+   - master_username: Replace "myusername" with a suitable username (ex: "admin").
 
-- master_password: Replace "The.5ecret?P4ssw0rd" with a strong, unique password.
+   - master_password: Replace "The.5ecret?P4ssw0rd" with a strong, unique password.
 
-- database_name: Replace "mydatabase" with an appropriate name for your database (ex: "moviedb").
+   - database_name: Replace "mydatabase" with an appropriate name for your database (ex: "moviedb").
 
 3. **Save the file before running.**
 
