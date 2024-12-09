@@ -19,7 +19,7 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
 
    Copy and paste the following into the `rds.tf` file:
 
-   ```hcl
+   ```plaintext
     terraform {
       required_providers {
         aws = {
@@ -66,7 +66,7 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
 
 1. **Update the `rds.tf` file** by adding the following resource blocks at the end of the file:
 
-   ```hcl
+   ```plaintext
    resource "aws_rds_cluster" "modern-engineering-aurora-postgressql-cluster" {
      cluster_identifier      = "modern-engineering-aurora-postgresql-cluster"
      engine                  = "aurora-postgresql"
@@ -96,7 +96,7 @@ In the previous lesson, you learned the fundamentals of using Terraform by creat
    }
    ```
 
-    > Notice we added an `output` block at the bottom of this `rdd.tf` file. This will print the database endpoint (DB host) when you run `terraform apply`, making it easy for you to use in the Ansible section of the exercise.
+   > Notice we added an `output` block at the bottom of this `rdd.tf` file. This will print the database endpoint (DB host) when you run `terraform apply`, making it easy for you to use in the Ansible section of the exercise.
 
 2. **Replace the placeholder values**:
 
