@@ -24,7 +24,7 @@ Estimated time to complete core lab exercise: **45 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/infrastructure-as-code-ansible-and-terraform-lab-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/infrastructure-as-code-ansible-and-terraform-lab-solution)
 
 ### Course landing pages
 
