@@ -40,8 +40,8 @@ aws configure
 *** Example Only ***
 
 [your-workstation-987541-1235qa-c80z56]$  aws configure
-AWS Access Key ID [None]:  AKIAJWTHXU9P44LFQMLK
-AWS Secret Access Key [None]:  bXrTqVyW9nJ784Tp5PLMSxwruNYdCR3kOzFpAZEm
+AWS Access Key ID [None]:  AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]:  wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]:  us-east-1
 Default output format [None]:
 [your-workstation-987541-1235qa-c80z56]$
